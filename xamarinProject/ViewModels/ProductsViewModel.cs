@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using System.Threading.Tasks;
     using System.Windows.Input;
     using Common.Models;
     using GalaSoft.MvvmLight.Command;
@@ -21,7 +22,11 @@
         public bool IsRefreshing
         {
             get { return this.isRefreshing; }
-            set { this.SetValue(ref this.isRefreshing, value); }
+            set
+            {
+                isRefreshing = value;
+                OnPropertyChanged(nameof(IsRefreshing));
+            }
         }
 
         public ObservableCollection<Product> Products
@@ -46,8 +51,20 @@
 
         private async void LoadProducts()
         {
+            var connection = await this.apiService.CheckConnection();
+
+            if (!connection.IsSuccess)
+            {
+                this.IsRefreshing = false;
+                await Application.Current.MainPage.DisplayAlert("Error ", connection.Message, "Accept");
+                return;
+            }
             this.IsRefreshing = true;
-            var response = await this.apiService.GetList<Product>("http://10.0.0.9:5000", "/api", "/Product");
+
+            var url = Application.Current.Resources["UrlApi"].ToString();
+            //await Task.Delay(1000);  //this task delay has fixed my issue. 
+
+            var response = await this.apiService.GetList<Product>(url, "/api", "/Product");
 
             if (!response.IsSuccess)
             {

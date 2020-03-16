@@ -10,10 +10,11 @@
             BindingContext="{Binding Products}" Padding="10">
             <ListView
                 HasUnevenRows="True"
+                IsRefreshing="{Binding IsRefresing, Mode=OneWay}"
                 IsPullToRefreshEnabled="True"
+                ItemsSource="{Binding Products}"
                 RefreshCommand="{Binding RefreshCommand}"
-                IsRefreshing="{Binding IsRefresing}"
-                ItemsSource="{Binding Products}">
+                >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

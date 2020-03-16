@@ -11,6 +11,8 @@
 
         <ResourceDictionary>
             <myInfra:InstanceLocator x:Key="Locator"/>
+
+            <x:String x:Key="UrlApi">http://10.0.0.9:5000</x:String>
         </ResourceDictionary>
 
     </Application.Resources>

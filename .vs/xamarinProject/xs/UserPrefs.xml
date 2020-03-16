@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{E3698405-276A-48C5-985D-656E6A134624}|Default">
+  <MonoDevelop.Ide.ItemProperties.xamarinProject.Android PreferredExecutionTarget="Android.a9c0e032" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarinProject/Services/ApiService.cs">
+    <Files>
+      <File FileName="xamarinProject/Services/ApiService.cs" Line="40" Column="1" />
+      <File FileName="xamarinProject/ViewModels/ProductsViewModel.cs" Line="50" Column="1" />
+      <File FileName="xamarinProject/ViewModels/MainViewModel.cs" Line="12" Column="1" />
+      <File FileName="xamarinProject/Infraestructure/InstanceLocator.cs" Line="13" Column="1" />
+      <File FileName="xamarinProject/App.xaml.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xamarinProject" expanded="True">
+            <Node name="xamarinProject" expanded="True">
+              <Node name="Infraestructure" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ApiService.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="xamarinProject.Common" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>IsRefreshing</Value>
+          <Value>isRefreshing</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.xamarinProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0663F79C-AD7F-45D6-93B2-A89747E5D794" />
+  <MonoDevelop.Ide.ItemProperties.xamarinProject.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/KarenLara/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/fd9f379d294e8208a63dd3f63d104057180c9789</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.ItemProperties.xamarinProject.Backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/Views/ProductsPage.xaml" relfile="xamarinProject/Views/ProductsPage.xaml" line="13" column="1" />
+      <Breakpoint file="/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/Services/ApiService.cs" relfile="xamarinProject/Services/ApiService.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

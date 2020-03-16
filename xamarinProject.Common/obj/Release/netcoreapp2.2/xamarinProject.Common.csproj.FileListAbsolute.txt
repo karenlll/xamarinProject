@@ -1,0 +1,7 @@
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/bin/Release/netcoreapp2.2/xamarinProject.Common.deps.json
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/bin/Release/netcoreapp2.2/xamarinProject.Common.dll
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/bin/Release/netcoreapp2.2/xamarinProject.Common.pdb
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/obj/Release/netcoreapp2.2/xamarinProject.Common.AssemblyInfoInputs.cache
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/obj/Release/netcoreapp2.2/xamarinProject.Common.AssemblyInfo.cs
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/obj/Release/netcoreapp2.2/xamarinProject.Common.dll
+/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/obj/Release/netcoreapp2.2/xamarinProject.Common.pdb
