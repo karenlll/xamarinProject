@@ -1,36 +1,25 @@
 ﻿<Properties StartupConfiguration="{E3698405-276A-48C5-985D-656E6A134624}|Default">
-  <MonoDevelop.Ide.ItemProperties.xamarinProject.Android PreferredExecutionTarget="Android.a9c0e032" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="xamarinProject/Services/ApiService.cs">
+  <MonoDevelop.Ide.ItemProperties.xamarinProject.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarinProject/Resources/Resource.resx">
     <Files>
       <File FileName="xamarinProject/Services/ApiService.cs" Line="40" Column="1" />
-      <File FileName="xamarinProject/ViewModels/ProductsViewModel.cs" Line="50" Column="1" />
-      <File FileName="xamarinProject/ViewModels/MainViewModel.cs" Line="12" Column="1" />
-      <File FileName="xamarinProject/Infraestructure/InstanceLocator.cs" Line="13" Column="1" />
-      <File FileName="xamarinProject/App.xaml.cs" Line="12" Column="1" />
+      <File FileName="xamarinProject/ViewModels/ProductsViewModel.cs" />
+      <File FileName="xamarinProject/ViewModels/MainViewModel.cs" />
+      <File FileName="xamarinProject/Infraestructure/InstanceLocator.cs" />
+      <File FileName="xamarinProject/App.xaml.cs" />
+      <File FileName="xamarinProject/Resources/Resources.resx" Line="10" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xamarinProject" expanded="True">
             <Node name="xamarinProject" expanded="True">
-              <Node name="Infraestructure" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="ApiService.cs" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Resource.resx" selected="True" />
               </Node>
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="xamarinProject.Common" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
+            <Node name="xamarinProject.Common" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>IsRefreshing</Value>
-          <Value>isRefreshing</Value>
         </State>
       </Pad>
     </Pads>
