@@ -4274,32 +4274,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/KarenLara/.nuget/packages/": {}
+    "C:\\Users\\BALTESAN\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/xamarinProject.Android.csproj",
+      "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Android\\xamarinProject.Android.csproj",
       "projectName": "xamarinProject.Android",
-      "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/xamarinProject.Android.csproj",
-      "packagesPath": "/Users/KarenLara/.nuget/packages/",
-      "outputPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/",
+      "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Android\\xamarinProject.Android.csproj",
+      "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
+      "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/KarenLara/.config/NuGet/NuGet.Config"
+        "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj": {
-              "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj"
+            "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj": {
+              "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj"
             }
           }
         }

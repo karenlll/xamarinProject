@@ -9,6 +9,7 @@
     using GalaSoft.MvvmLight.Command;
     using Services;
     using Xamarin.Forms;
+    using xamarinProject.Helpers;
 
     public class ProductsViewModel : BaseViewModel
     {
@@ -56,20 +57,22 @@
             if (!connection.IsSuccess)
             {
                 this.IsRefreshing = false;
-                await Application.Current.MainPage.DisplayAlert("Error ", connection.Message, "Accept");
+                await Application.Current.MainPage.DisplayAlert(Languages.Error, connection.Message, Languages.Accept);
                 return;
             }
             this.IsRefreshing = true;
 
             var url = Application.Current.Resources["UrlApi"].ToString();
+            var prefix = Application.Current.Resources["UrlPrefix"].ToString();
+            var controller = Application.Current.Resources["UrlProductsController"].ToString();
             //await Task.Delay(1000);  //this task delay has fixed my issue. 
 
-            var response = await this.apiService.GetList<Product>(url, "/api", "/Product");
+            var response = await this.apiService.GetList<Product>(url, prefix, controller);
 
             if (!response.IsSuccess)
             {
                 this.IsRefreshing = false;
-                await Application.Current.MainPage.DisplayAlert("Error ", response.Message, "Accept");
+                await Application.Current.MainPage.DisplayAlert(Languages.Error, response.Message, Languages.Accept);
                 return;
             }
 

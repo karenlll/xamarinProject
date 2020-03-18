@@ -1,28 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj": {}
+    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj": {}
   },
   "projects": {
-    "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
+    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj",
+        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj",
         "projectName": "xamarinProject.Common",
-        "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj",
-        "packagesPath": "/Users/KarenLara/.nuget/packages/",
-        "outputPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/obj/",
+        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj",
+        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
+        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/KarenLara/.config/NuGet/NuGet.Config"
+          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,43 +59,43 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj": {
+    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj",
+        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj",
         "projectName": "xamarinProject.iOS",
-        "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj",
-        "packagesPath": "/Users/KarenLara/.nuget/packages/",
-        "outputPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/",
+        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj",
+        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
+        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/KarenLara/.config/NuGet/NuGet.Config"
+          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj": {
-                "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj"
+              "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj": {
+                "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj"
               }
             }
           }
@@ -131,32 +135,36 @@
         }
       }
     },
-    "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj": {
+    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj",
+        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj",
         "projectName": "xamarinProject",
-        "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/xamarinProject.csproj",
-        "packagesPath": "/Users/KarenLara/.nuget/packages/",
-        "outputPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject/obj/",
+        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj",
+        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
+        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/KarenLara/.config/NuGet/NuGet.Config"
+          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
-                "projectPath": "/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj"
+              "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
+                "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj"
               }
             }
           }
@@ -198,16 +206,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

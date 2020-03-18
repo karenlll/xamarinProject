@@ -7,6 +7,7 @@
     using Newtonsoft.Json;
     using Plugin.Connectivity;
     using xamarinProject.Common.Models;
+    using xamarinProject.Helpers;
 
     public class ApiService
     {
@@ -17,7 +18,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Please turn on your internet settings.",
+                    Message = Languages.TurnOnInternet,
                 };
             }
 
@@ -28,7 +29,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "No internet Connection.",
+                    Message = Languages.NoInternet,
                 };
             }
 
