@@ -3,10 +3,10 @@ namespace xamarinProject.API.Controllers
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Common.Models;
+    using Domain.Models;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
-    using xamarinProject.Common.Models;
-    using xamarinProject.Domain.Models;
 
     [Route("api/[controller]")]
     [ApiController]

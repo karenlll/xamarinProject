@@ -1,9 +1,7 @@
 ﻿namespace xamarinProject.ViewModels
 {
-    using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
-    using System.Threading.Tasks;
     using System.Windows.Input;
     using Common.Models;
     using GalaSoft.MvvmLight.Command;

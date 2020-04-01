@@ -1,35 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-xamarinProject.Backend-B1CD2CF7-2591-4306-8C83-4924FD9B69FE</UserSecretsId>
-    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-  </PropertyGroup>
-
-
-  <ItemGroup>
-    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App">
-      <PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>
-      <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
-      <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.2.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\xamarinProject.Common\xamarinProject.Common.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="..\xamarinProject.Domain\xamarinProject.Domain.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-  </ItemGroup>
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <UserSecretsId>aspnet-xamarinProject.Backend-B1CD2CF7-2591-4306-8C83-4924FD9B69FE</UserSecretsId>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App">
+            <PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>
+            <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
+            <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
+        </PackageReference>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.2.4" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\xamarinProject.Common\xamarinProject.Common.csproj">
+            <GlobalPropertiesToRemove>
+            </GlobalPropertiesToRemove>
+        </ProjectReference>
+        <ProjectReference Include="..\xamarinProject.Domain\xamarinProject.Domain.csproj">
+            <GlobalPropertiesToRemove>
+            </GlobalPropertiesToRemove>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Controllers\" />
+        <Folder Include="Helpers\" />
+        <Folder Include="wwwroot\lib\bootstrap\Content\" />
+        <Folder Include="wwwroot\lib\bootstrap\Content\Products\" />
+    </ItemGroup>
 </Project>

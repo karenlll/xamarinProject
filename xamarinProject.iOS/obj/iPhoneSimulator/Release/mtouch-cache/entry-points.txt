@@ -1,0 +1,86 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

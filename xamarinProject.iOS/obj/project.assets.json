@@ -3708,12 +3708,15 @@
         "lib/SL5/System.Windows.Interactivity.dll",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
         "lib/net35/GalaSoft.MvvmLight.Extras.dll",
         "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
@@ -5227,39 +5230,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BALTESAN\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/karenlara/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj",
+      "projectUniqueName": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj",
       "projectName": "xamarinProject.iOS",
-      "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\xamarinProject.iOS.csproj",
-      "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
-      "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.iOS\\obj\\",
+      "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.iOS/xamarinProject.iOS.csproj",
+      "packagesPath": "/Users/karenlara/.nuget/packages/",
+      "outputPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/karenlara/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj": {
-              "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj"
+            "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/xamarinProject.csproj": {
+              "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/xamarinProject.csproj"
             }
           }
         }

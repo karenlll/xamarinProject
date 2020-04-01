@@ -1,7 +1,7 @@
 @model IEnumerable<xamarinProject.Common.Models.Product>
 
 @{
-    Layout = null;
+    Layout = "_Layout";
 }
 
 <!DOCTYPE html>
@@ -13,10 +13,7 @@
 </head>
 <body>
     <p>
-        <a asp-action="Create">Create New</a>
-    </p>
-    <p>
-        <a asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
     </p>
     <table class="table">
         <thead>
@@ -25,9 +22,15 @@
                     @Html.DisplayNameFor(model => model.Description)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Price)
+                    @Html.DisplayNameFor(model => model.Remarks)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model => model.ImagePath)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th style="width: 10px">
                     @Html.DisplayNameFor(model => model.IsAvailable)
                 </th>
                 <th>
@@ -44,18 +47,28 @@
                         @Html.DisplayFor(modelItem => item.Description)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Price)
+                        @Html.DisplayFor(modelItem => item.Remarks)
                     </td>
                     <td>
+                        @if (!string.IsNullOrEmpty(item.ImagePath))
+                        {
+                            <img src="@Url.Content("~/" + item.ImagePath)" alt="Image"
+                                 style="width:100px;height:150px;max-width:100%;height:auto;" />
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td style="width: 10px">
                         @Html.DisplayFor(modelItem => item.IsAvailable)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.PublishOn)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             }

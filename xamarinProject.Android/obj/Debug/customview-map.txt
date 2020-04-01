@@ -1,45 +1,45 @@
-@string/appbar_scrolling_view_behavior;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
-@string/appbar_scrolling_view_behavior;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
+@string/appbar_scrolling_view_behavior;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+@string/appbar_scrolling_view_behavior;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
-alpha;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
-alpha;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
-android.support.design.widget.AppBarLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
-android.support.design.widget.AppBarLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
-android.support.design.widget.AppBarLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
-android.support.design.widget.BottomNavigationView;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
-android.support.design.widget.CoordinatorLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
-android.support.design.widget.TabLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+alpha;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
+alpha;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
+android.support.design.widget.AppBarLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
+android.support.design.widget.AppBarLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+android.support.design.widget.AppBarLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
+android.support.design.widget.BottomNavigationView;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+android.support.design.widget.CoordinatorLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
+android.support.design.widget.TabLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
 android.support.design.widget.TabLayout;obj/Debug/res/layout/tabbar.xml
-android.support.v4.widget.NestedScrollView;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
-android.support.v4.widget.NestedScrollView;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
-android.support.v7.widget.RecyclerView;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
-android.support.v7.widget.Toolbar;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
-android.support.v7.widget.Toolbar;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
+android.support.v4.widget.NestedScrollView;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+android.support.v4.widget.NestedScrollView;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
+android.support.v7.widget.RecyclerView;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/flyoutcontent.xml
+android.support.v7.widget.Toolbar;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/rootlayout.xml
+android.support.v7.widget.Toolbar;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/shellcontent.xml
 android.support.v7.widget.Toolbar;obj/Debug/res/layout/toolbar.xml
 background;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 background;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
-cache-path;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+cache-path;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
-external-cache-path;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
-external-path;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+external-path;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
-FrameLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
+FrameLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
 item;obj/Debug/res/values/styles.xml
-LinearLayout;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
-paths;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+LinearLayout;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/layout/bottomtablayout.xml
+paths;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/42/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 resources;obj/Debug/res/values/colors.xml
 resources;obj/Debug/res/values/styles.xml
-set;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
-set;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromright.xml
-set;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
-set;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoright.xml
+set;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
+set;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromright.xml
+set;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
+set;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoright.xml
 style;obj/Debug/res/values/styles.xml
-translate;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
-translate;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromright.xml
-translate;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
-translate;/Volumes/External Disk/Karen Lara/SBS Projects/Xamarin/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoright.xml
+translate;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromleft.xml
+translate;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/enterfromright.xml
+translate;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
+translate;/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Android/obj/Debug/lp/43/jl/res/anim/exittoright.xml

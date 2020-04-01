@@ -1476,12 +1476,15 @@
         "lib/SL5/System.Windows.Interactivity.dll",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
         "lib/net35/GalaSoft.MvvmLight.Extras.dll",
         "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
@@ -4065,40 +4068,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BALTESAN\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/karenlara/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj",
+      "projectUniqueName": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/xamarinProject.csproj",
       "projectName": "xamarinProject",
-      "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\xamarinProject.csproj",
-      "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
-      "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject\\obj\\",
+      "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/xamarinProject.csproj",
+      "packagesPath": "/Users/karenlara/.nuget/packages/",
+      "outputPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/karenlara/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
-              "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj"
+            "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
+              "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj"
             }
           }
         }
@@ -4140,10 +4138,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -4152,7 +4156,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

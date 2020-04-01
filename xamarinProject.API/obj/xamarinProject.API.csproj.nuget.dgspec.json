@@ -1,42 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.API\\xamarinProject.API.csproj": {}
+    "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.API/xamarinProject.API.csproj": {}
   },
   "projects": {
-    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.API\\xamarinProject.API.csproj": {
+    "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.API/xamarinProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.API\\xamarinProject.API.csproj",
+        "projectUniqueName": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.API/xamarinProject.API.csproj",
         "projectName": "xamarinProject.API",
-        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.API\\xamarinProject.API.csproj",
-        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
-        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.API\\obj\\",
+        "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.API/xamarinProject.API.csproj",
+        "packagesPath": "/Users/karenlara/.nuget/packages/",
+        "outputPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/karenlara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
-                "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj"
+              "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
+                "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj"
               },
-              "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\xamarinProject.Domain.csproj": {
-                "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\xamarinProject.Domain.csproj"
+              "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/xamarinProject.Domain.csproj": {
+                "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/xamarinProject.Domain.csproj"
               }
             }
           }
@@ -76,36 +72,38 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
+    "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj",
+        "projectUniqueName": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj",
         "projectName": "xamarinProject.Common",
-        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj",
-        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
-        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\obj\\",
+        "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj",
+        "packagesPath": "/Users/karenlara/.nuget/packages/",
+        "outputPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/karenlara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,43 +136,45 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\xamarinProject.Domain.csproj": {
+    "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/xamarinProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\xamarinProject.Domain.csproj",
+        "projectUniqueName": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/xamarinProject.Domain.csproj",
         "projectName": "xamarinProject.Domain",
-        "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\xamarinProject.Domain.csproj",
-        "packagesPath": "C:\\Users\\BALTESAN\\.nuget\\packages\\",
-        "outputPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Domain\\obj\\",
+        "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/xamarinProject.Domain.csproj",
+        "packagesPath": "/Users/karenlara/.nuget/packages/",
+        "outputPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\BALTESAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/karenlara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj": {
-                "projectPath": "D:\\KAREN\\SBS\\xamarinProject\\xamarinProject\\xamarinProject.Common\\xamarinProject.Common.csproj"
+              "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj": {
+                "projectPath": "/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/xamarinProject.Common.csproj"
               }
             }
           }
@@ -204,10 +204,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     }

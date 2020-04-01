@@ -12,6 +12,7 @@
     using Microsoft.AspNetCore.Identity.UI;
     using xamarinProject.Domain.Models;
     using xamarinProject.Backend.Models;
+    using xamarinProject.Backend.Helpers;
 
     public class Startup
     {
@@ -49,6 +50,7 @@
                  .AddEntityFrameworkStores<ApplicationDbContext>();
              services.AddRazorPages();*/
 
+            services.AddSingleton<FilesHelper>();
 
             services.AddDefaultIdentity<IdentityUser>()
                  .AddDefaultUI(UIFramework.Bootstrap4)
