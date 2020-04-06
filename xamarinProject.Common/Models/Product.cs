@@ -2,6 +2,7 @@
 {
     using System;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Product
     {
@@ -17,6 +18,9 @@
         [Display(Name = "Image")]
         public string ImagePath { get; set; }
 
+        public bool FromWeb { get; set; }
+
+        [NotMapped]
         public string ImageFullPath
         {
             get
@@ -26,7 +30,10 @@
                     return "noProduct";
                 }
 
-                return $"http://10.0.0.14:5001/{this.ImagePath}";
+                if(FromWeb)
+                    return $"http://10.0.0.14:5001/{this.ImagePath}";
+                else
+                    return $"http://10.0.0.14:5000/{this.ImagePath}";
             }
         }
 
@@ -39,6 +46,9 @@
         [Display(Name = "Publish On")]
         [DataType(DataType.Date)]
         public DateTime PublishOn { get; set; }
+
+        [NotMapped]
+        public byte[] ImageArray { get; set; }
 
         public override string ToString()
         {

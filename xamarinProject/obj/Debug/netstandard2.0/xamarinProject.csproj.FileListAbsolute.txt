@@ -42,9 +42,7 @@
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.Resources.Resource.pt.resources
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.csproj.GenerateResource.cache
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/Views/AddProductPage.xaml.g.cs
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/Views/ProductsPage.xaml.g.cs
-/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.csproj.CoreCompileInputs.cache
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.AssemblyInfoInputs.cache
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.AssemblyInfo.cs
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/XamlC.stamp
@@ -55,3 +53,4 @@
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.dll
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/ref/xamarinProject.dll
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/xamarinProject.pdb
+/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject/obj/Debug/netstandard2.0/Views/ManageProductsPage.xaml.g.cs

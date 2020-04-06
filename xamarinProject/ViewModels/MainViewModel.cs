@@ -11,12 +11,29 @@
 
         public ProductsViewModel Products { get; set; }
 
-        public AddProductViewModel AddProduct { get; set; }
+        public ManageProductsViewModel ManageProduct { get; set; }
 
-        public MainViewModel()
+        private MainViewModel()
         {
-            Products = new ProductsViewModel();
+            instance = this;
+            Products = ProductsViewModel.GetInstance();
         }
+
+        #region Singleton
+
+        private static MainViewModel instance;
+
+        public static MainViewModel GetInstance()
+        {
+            if (instance == null)
+            {
+                instance = new MainViewModel();
+            }
+
+            return instance;
+        }
+
+        #endregion
 
         public ICommand AddProductCommand
         {
@@ -28,8 +45,8 @@
 
         private async void GoToAddProduct()
         {
-            this.AddProduct = new AddProductViewModel();
-            await Application.Current.MainPage.Navigation.PushAsync(new AddProductPage());
+            this.ManageProduct = new ManageProductsViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new ManageProductsPage());
         }
     }
 }

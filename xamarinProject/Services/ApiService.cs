@@ -124,5 +124,84 @@
 
         }
 
+        public async Task<Response> Delete(string baseUrl, string prefix, string controller, int id)
+        {
+            try
+            {
+                var client = new HttpClient();
+                client.BaseAddress = new Uri(baseUrl);
+                var url = $"{prefix}{controller}/{id}";
+                var response = await client.DeleteAsync(url);
+
+                var answer = await response.Content.ReadAsStringAsync();
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return new Response
+                    {
+                        IsSuccess = false,
+                        Message = answer
+                    };
+                }
+
+                return new Response
+                {
+                    IsSuccess = true,
+                };
+
+            }
+            catch (Exception e)
+            {
+                return new Response
+                {
+                    IsSuccess = false,
+                    Message = e.Message
+                };
+            }
+
+        }
+
+        public async Task<Response> Put<T>(string baseUrl, string prefix, string controller, T model, int id)
+        {
+            try
+            {
+                var request = JsonConvert.SerializeObject(model);
+                var content = new StringContent(request, Encoding.UTF8, "application/json");
+                var client = new HttpClient();
+                client.BaseAddress = new Uri(baseUrl);
+                var url = $"{prefix}{controller}/{id}";
+                var response = await client.PutAsync(url, content);
+
+                var answer = await response.Content.ReadAsStringAsync();
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return new Response
+                    {
+                        IsSuccess = false,
+                        Message = answer
+                    };
+                }
+
+                var objResponse = JsonConvert.DeserializeObject<T>(answer);
+
+                return new Response
+                {
+                    IsSuccess = true,
+                    Result = objResponse
+                };
+
+            }
+            catch (Exception e)
+            {
+                return new Response
+                {
+                    IsSuccess = false,
+                    Message = e.Message
+                };
+            }
+
+        }
+
     }
 }

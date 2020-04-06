@@ -132,8 +132,8 @@
     <data name="Products" xml:space="preserve">
     <value>Productos</value>
   </data>
-    <data name="AddProduct" xml:space="preserve">
-    <value>Adicionar Producto</value>
+    <data name="ManageProduct" xml:space="preserve">
+    <value>Administrar Producto</value>
   </data>
     <data name="Save" xml:space="preserve">
     <value>Guardar</value>
@@ -161,5 +161,32 @@
   </data>
     <data name="PriceError" xml:space="preserve">
     <value>Debes digitar un precio mayor a cero ... </value>
+  </data>
+    <data name="ImageSource" xml:space="preserve">
+    <value>¿De dónde deseas tomar la foto? </value>
+  </data>
+    <data name="FromGallery" xml:space="preserve">
+    <value>Desde la galeria </value>
+  </data>
+    <data name="NewPicture" xml:space="preserve">
+    <value>Toma una foto nueva </value>
+  </data>
+    <data name="Cancel" xml:space="preserve">
+    <value>Cancelar </value>
+  </data>
+    <data name="Edit" xml:space="preserve">
+    <value>Editar </value>
+  </data>
+    <data name="Delete" xml:space="preserve">
+    <value>Borrar </value>
+  </data>
+    <data name="DeleteConfirmation" xml:space="preserve">
+    <value>¿Esta seguro de borrar este producto? </value>
+  </data>
+    <data name="Yes" xml:space="preserve">
+    <value>Si </value>
+  </data>
+    <data name="No" xml:space="preserve">
+    <value>No </value>
   </data>
 </root>

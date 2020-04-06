@@ -11,7 +11,6 @@
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/bin/Debug/netstandard2.0/xamarinProject.Common.dll
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/bin/Debug/netstandard2.0/xamarinProject.Common.pdb
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/Debug/netstandard2.0/xamarinProject.Common.csprojAssemblyReference.cache
-/Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/Debug/netstandard2.0/xamarinProject.Common.csproj.CoreCompileInputs.cache
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/Debug/netstandard2.0/xamarinProject.Common.AssemblyInfoInputs.cache
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/Debug/netstandard2.0/xamarinProject.Common.AssemblyInfo.cs
 /Users/karenlara/Documents/SBS/xamarinProject/xamarinProject.Common/obj/Debug/netstandard2.0/xamarinProject.Common.dll

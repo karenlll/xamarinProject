@@ -18,10 +18,10 @@
     <table class="table">
         <thead>
             <tr>
-                <th>
+                <th style="width: 20px">
                     @Html.DisplayNameFor(model => model.Description)
                 </th>
-                <th>
+                <th >
                     @Html.DisplayNameFor(model => model.Remarks)
                 </th>
                 <th>
@@ -43,16 +43,16 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
+                    <td style="width: 20px">
                         @Html.DisplayFor(modelItem => item.Description)
                     </td>
-                    <td>
+                    <td >
                         @Html.DisplayFor(modelItem => item.Remarks)
                     </td>
                     <td>
                         @if (!string.IsNullOrEmpty(item.ImagePath))
                         {
-                            <img src="@Url.Content("~/" + item.ImagePath)" alt="Image"
+                            <img src="@Url.Content(item.ImageFullPath)" alt="Image"
                                  style="width:100px;height:150px;max-width:100%;height:auto;" />
                         }
                     </td>

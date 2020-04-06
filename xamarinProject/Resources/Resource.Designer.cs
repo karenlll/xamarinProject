@@ -77,9 +77,9 @@ namespace xamarinProject.Resources {
             }
         }
         
-        public static string AddProduct {
+        public static string ManageProduct {
             get {
-                return ResourceManager.GetString("AddProduct", resourceCulture);
+                return ResourceManager.GetString("ManageProduct", resourceCulture);
             }
         }
         
@@ -134,6 +134,60 @@ namespace xamarinProject.Resources {
         public static string PriceError {
             get {
                 return ResourceManager.GetString("PriceError", resourceCulture);
+            }
+        }
+        
+        public static string ImageSource {
+            get {
+                return ResourceManager.GetString("ImageSource", resourceCulture);
+            }
+        }
+        
+        public static string FromGallery {
+            get {
+                return ResourceManager.GetString("FromGallery", resourceCulture);
+            }
+        }
+        
+        public static string NewPicture {
+            get {
+                return ResourceManager.GetString("NewPicture", resourceCulture);
+            }
+        }
+        
+        public static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        public static string Edit {
+            get {
+                return ResourceManager.GetString("Edit", resourceCulture);
+            }
+        }
+        
+        public static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        public static string DeleteConfirmation {
+            get {
+                return ResourceManager.GetString("DeleteConfirmation", resourceCulture);
+            }
+        }
+        
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
+            }
+        }
+        
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
             }
         }
     }

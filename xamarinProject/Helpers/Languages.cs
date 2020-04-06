@@ -41,9 +41,9 @@
             get { return Resource.TurnOnInternet; }
         }
 
-        public static string AddProduct
+        public static string ManageProduct
         {
-            get { return Resource.AddProduct; }
+            get { return Resource.ManageProduct; }
         }
 
         public static string Save
@@ -89,6 +89,51 @@
         public static string PriceError
         {
             get { return Resource.PriceError; }
+        }
+
+        public static string ImageSource
+        {
+            get { return Resource.ImageSource; }
+        }
+
+        public static string FromGallery
+        {
+            get { return Resource.FromGallery; }
+        }
+
+        public static string Cancel
+        {
+            get { return Resource.Cancel; }
+        }
+
+        public static string NewPicture
+        {
+            get { return Resource.NewPicture; }
+        }
+
+        public static string Edit
+        {
+            get { return Resource.Edit; }
+        }
+
+        public static string Delete
+        {
+            get { return Resource.Delete; }
+        }
+
+        public static string DeleteConfirmation
+        {
+            get { return Resource.DeleteConfirmation; }
+        }
+
+        public static string Yes
+        {
+            get { return Resource.Yes; }
+        }
+
+        public static string No
+        {
+            get { return Resource.No; }
         }
 
     }

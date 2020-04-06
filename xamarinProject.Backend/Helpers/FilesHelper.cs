@@ -1,11 +1,10 @@
-﻿using System;
-using System.IO;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-
-namespace xamarinProject.Backend.Helpers
+﻿namespace xamarinProject.Backend.Helpers
 {
+    using System.IO;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Http;
+
     public class FilesHelper
     {
         private IHostingEnvironment _env;

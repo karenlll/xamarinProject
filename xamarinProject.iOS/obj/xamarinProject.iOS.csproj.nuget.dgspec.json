@@ -108,13 +108,17 @@
               "target": "Package",
               "version": "[3.2.0, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.5.0.530, )"
             }
           }
         }
@@ -188,13 +192,17 @@
               "target": "Package",
               "version": "[3.2.0, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.5.0.530, )"
             }
           },
           "imports": [

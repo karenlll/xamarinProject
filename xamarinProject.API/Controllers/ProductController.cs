@@ -1,12 +1,15 @@
 namespace xamarinProject.API.Controllers
 {
+    using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
     using Common.Models;
     using Domain.Models;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
+    using xamarinProject.API.Helpers;
 
     [Route("api/[controller]")]
     [ApiController]
@@ -23,7 +26,7 @@ namespace xamarinProject.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
         {
-            return await _context.Product.ToListAsync();
+            return await _context.Product.OrderBy(p => p.Description).ToListAsync();
         }
 
         // GET: api/Product/5
@@ -49,6 +52,24 @@ namespace xamarinProject.API.Controllers
                 return BadRequest();
             }
 
+            product.PublishOn = DateTime.Now.ToUniversalTime();
+
+            if (product.ImageArray != null && product.ImageArray.Length > 0)
+            {
+                var stream = new MemoryStream(product.ImageArray);
+                var guid = Guid.NewGuid().ToString();
+                var file = $"{guid}.jpg";
+                var folder = "Products";
+                var fullPath = $"{folder}/{file}";
+                var response = FileHelper.UploadPhoto(stream, folder, file);
+
+                if (response)
+                {
+                    product.ImagePath = fullPath;
+                }
+
+            }
+
             _context.Entry(product).State = EntityState.Modified;
 
             try
@@ -67,13 +88,32 @@ namespace xamarinProject.API.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(product);
         }
 
         // POST: api/Product
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
+            product.IsAvailable = true;
+            product.PublishOn = DateTime.Now.ToUniversalTime();
+
+            if(product.ImageArray != null && product.ImageArray.Length > 0)
+            {
+                var stream = new MemoryStream(product.ImageArray);
+                var guid = Guid.NewGuid().ToString();
+                var file = $"{guid}.jpg";
+                var folder = "Products";
+                var fullPath = $"{folder}/{file}";
+                var response = FileHelper.UploadPhoto(stream, folder, file);
+
+                if (response)
+                {
+                    product.ImagePath = fullPath;
+                }
+
+            }
+
             _context.Product.Add(product);
             await _context.SaveChangesAsync();
 

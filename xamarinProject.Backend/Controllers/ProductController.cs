@@ -85,7 +85,8 @@ namespace xamarinProject.Backend.Controllers
                 Price = view.Price,
                 PublishOn = view.PublishOn,
                 Remarks = view.Remarks,
-                ProductId = view.ProductId
+                ProductId = view.ProductId,
+                FromWeb = true,
             };
         }
 
