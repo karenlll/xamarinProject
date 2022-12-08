@@ -14,7 +14,7 @@
             <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
             <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
         </PackageReference>
-        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
